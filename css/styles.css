@@ -334,6 +334,27 @@ html[data-lang="zh"] .lang-zh{ display: block; }
   background: #fff;
 }
 
+.indigenous-project {
+  margin-top: 18px;
+}
+
+.project-cover {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: #111;
+}
+
+.indigenous-cover {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-watch-btn {
+  margin-top: 16px;
+}
+
 /* Footer */
 .site-footer{
   border-top: 1px solid var(--border);
