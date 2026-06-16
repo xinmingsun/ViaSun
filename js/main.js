@@ -29,8 +29,8 @@
       projects_title: "Projects",
       projects_makeup_heading: "Makeup Design",
       makeup_project_title: "Echoes of Her: A Journey Through Time",
-      projects_video_heading: "Video Editing",
-      projects_video_title: "Trip to Miami",
+      projects_indigenous_btn: "Indigenous Futurisms Video Project",
+      projects_indigenous_heading: "Indigenous Futurisms: Video Storytelling",
       footer_handcoded: "Hand-coded by Via Sun"
     },
     zh: {
@@ -57,8 +57,8 @@
       projects_title: "作品集",
       projects_makeup_heading: "妆造设计",
       makeup_project_title: "她的回声：穿越时间的旅程",
-      projects_video_heading: "视频剪辑",
-      projects_video_title: "迈阿密之旅",
+      projects_indigenous_btn: "原住民未来主义影像项目",
+      projects_indigenous_heading: "原住民未来主义：影像叙事",
       footer_handcoded: "Hand-coded by Via Sun"
     }
   };
