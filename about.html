@@ -1,78 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" data-lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Via Sun — About Me</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body id="top">
-  <a class="skip-link" href="#content">Skip to content</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="index.html" aria-label="Via Sun, Home">
-        <span class="brand-badge" aria-hidden="true">V</span>
-        <span class="brand-name">Via Sun</span>
-      </a>
-
-      <nav class="nav" aria-label="Primary">
-        <a href="index.html"><span data-i18n="nav_home">Home</span></a>
-        <a href="about.html" aria-current="page"><span data-i18n="nav_about">About Me</span></a>
-        <a href="projects.html"><span data-i18n="nav_projects">Projects</span></a>
-      </nav>
-
-      <div class="lang-switch" aria-label="Language">
-        <button type="button" data-set-lang="en" aria-pressed="true" data-i18n="lang_en">EN</button>
-        <button type="button" data-set-lang="zh" aria-pressed="false" data-i18n="lang_zh">中文</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Slide-out table of contents (for this long page) -->
-  <div class="toc-toggle" id="tocToggleWrap">
-    <button id="tocToggle" type="button" aria-expanded="false" aria-controls="tocPanel">
-      <span data-i18n="toc_title">Contents</span>
-    </button>
-  </div>
-  <aside class="toc-panel" id="tocPanel" aria-label="On-page contents">
-    <nav>
-      <a href="#personal"><span data-i18n="section_personal">Personal statement</span></a>
-      <a href="#resume"><span data-i18n="section_resume">Résumé</span></a>
-      <a href="#skills"><span data-i18n="section_skills">Skills</span></a>
-      <a href="#experience"><span data-i18n="section_experience">Work experience</span></a>
-      <a href="#education"><span data-i18n="section_education">Education</span></a>
-      <a href="#language"><span data-i18n="section_language">Language</span></a>
-      <a href="#social"><span data-i18n="section_social">Social media</span></a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <button class="btn toc-close" id="tocClose" type="button"><span data-i18n="toc_close">Close</span></button>
-  </aside>
-
-  <main class="container" id="content">
-    <section class="hero" aria-label="About hero">
-      <div class="card">
-        <h1>About Me</h1>
-
-        <div class="btn-row">
-          <a class="btn primary" href="#resume"><span data-i18n="btn_scroll_resume">Scroll to résumé</span></a>
-          <a class="btn" href="resume.pdf" download><span data-i18n="btn_download_resume">Download Résumé PDF</span></a>
-        </div>
-      </div>
-
-      <figure class="figure">
-        <img
-          src="images/about-photo.jpg"
-          srcset="images/about-photo.jpg 1x, images/about-photo@2x.jpg 2x"
-          width="2316"
-          height="3088"
-          alt="Photo of Via Sun"
-          loading="lazy"
-        />
-      </figure>
-    </section>
-
-    <section class="section" id="personal">
       <h2 data-i18n="section_personal">Personal statement</h2>
 
       <div class="card">
@@ -114,210 +40,857 @@
           <p>思绪回到那个普通的下午。我走进写作课的教室，教授发下几页阅读材料——Joan Didion 的 Goodbye to All That。阅读间，一句话狠狠的击中了我：“It is often said that New York is a city for only the very rich and the very poor… it is also a city for the very young.” 我将这句话写在便利贴上，署名为 V，贴在房间的窗户上。窗外，它正对着曼哈顿下城区的高楼大厦——那是我第一次从JFK回家经过曼哈顿大桥时，看到的那片灯海。</p>
         </div>
         <img 
-  src="images/note-nyc.jpg"
-  srcset="images/note-nyc@2x.jpg 2x"
-  alt="A handwritten note against the New York skyline"
-  class="about-image">
-      </div>
-    </section>
 
-    <section class="section" id="resume">
-      <h2 data-i18n="section_resume">Résumé</h2>
 
-      <section class="section" id="skills">
-        <h3 data-i18n="section_skills">Skills</h3>
-                <div class="card">
-          <div class="lang-block lang-en">
-            <ul class="list-clean">
-              <li>Strong public speaking, group collaboration, and leadership skills, supported by high organizational efficiency.</li>
-              <li>Entrepreneurial mindset developed through hands-on project ownership, cross-functional collaboration, and independent problem-solving.</li>
-              <li>Proven ability to lead and adapt in multicultural environments, efficiently handling challenges and providing quick, effective solutions on the go.</li>
-              <li>Adaptable aesthetic sense that aligns with diverse styles and cultures, reflecting a strong grasp of fashion and design principles.</li>
-              <li>Professional in CapCut and Canva, with solid proficiency in Adobe Photoshop and InDesign for both video and photo editing. Additionally, experienced in web design languages including HTML, CSS, SVG, and JavaScript. Please visit my social media account to see my video editing work.</li>
-              <li>Well-versed in social media strategy and content creation across multiple platforms, with hands-on experience managing and growing diverse social media accounts. For more detail, please scroll down to social media.</li>
-            </ul>
-          </div>
+          <!DOCTYPE html>
 
-          <div class="lang-block lang-zh">
-            <ul class="list-clean">
-              <li>具备出色的公众演讲、团队协作与领导能力，组织效率高。</li>
-              <li>在独立负责项目、跨团队协作与自主解决问题的过程中，培养了创业型思维。</li>
-              <li>能在多元文化环境中快速适应并承担领导角色，高效处理挑战，及时给出有效方案。</li>
-              <li>审美适应性强，能够贴合不同风格与文化，具备扎实的时尚与设计理解。</li>
-              <li>熟练使用 CapCut 与 Canva，掌握 Adobe Photoshop 和 InDesign，可用于视频与图片编辑；并具备 HTML、CSS、SVG、JavaScript 等网页语言基础。请访问我的社交媒体账号以查看我的视频剪辑作品。
-              <li>熟悉多平台社交媒体策略与内容制作，具备账号运营与增长经验。更多细节请下滑查看社交媒体。</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+<html lang="en">
 
-      <section class="section" id="experience">
-        <h3 data-i18n="section_experience">Work experience</h3>
-                <div class="card">
-          <div class="lang-block lang-en">
-            
-            <h4>NYU SPS Office of Events <span class="muted">Feb. 2026–Present</span></h4>
-            <p><strong>Office Assistant</strong></p>
-            <ul class="list-clean">
-              <li>Coordinated logistics and run-of-show for large-scale campus events (hundreds of attendees), keeping teams aligned and timelines
-              on track.</li>
-              <li>Managed event materials and inventory with Excel/Google Sheets, ensuring accurate tracking and rapid turnaround across events.</li>
-            <li>Handled guest-facing coordination (scheduling, arrival, on-site support) to deliver a smooth, professional experience.</li>
-            <li>Led on-site execution and real-time troubleshooting, maintaining flow, timing, and service standards.</li>
-            </ul>
-            
-            <h4>Kimber Health <span class="muted">Aug. 2025–Present</span></h4>
-            <p><strong>Marketing Coordinator</strong></p>
-            <ul class="list-clean">
-              <li>Led the management of the Rednote social media account, creating impactful advertising content that significantly boosted engagement and visibility.</li>
-              <li>Spearheaded the planning and on-campus promotion of marketing events for student insurance products, successfully increasing student enrollment and on-campus engagement through targeted campaigns.</li>
-            </ul>
 
-             <h4>Abercrombie & Fitch Co. <span class="muted">Apr. 2026–June. 2026</span></h4>
-            <p><strong>Brand Representative</strong></p>
-            <ul class="list-clean">
-              <li>Contributed to a customer-focused retail environment by combining brand storytelling, styling support, and visual presentation within a fast-paced fashion setting.</li>
-              <li>Strengthened client experience through personalized communication, product knowledge, and brand representation aligned with Abercrombie & Fitch’s contemporary identity.</li>
-            </ul>
+<head>
 
-            <h4>Sise Digital Co., Ltd. <span class="muted">Jan. 2024–Mar. 2024</span></h4>
-            <p><strong>Exhibition Design Advisor</strong></p>
-            <ul class="list-clean">
-              <li>Contributed key creative ideas and design recommendations for the exhibition, influencing major aspects of the event's layout and visitor engagement.</li>
-              <li>Actively collaborated in exhibition planning and execution, providing strategic input on layout, visitor flow, and educational materials to enhance overall impact.</li>
-            </ul>
-            
-          </div>
+<meta charset="UTF-8">
 
-          <div class="lang-block lang-zh">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-             <h4>纽约大学SPS活动办公室 <span class="muted">2026 年 2 月–现在</span></h4>
-            <p><strong>Office Assistant</strong></p>
-            <ul class="list-clean">
-              <li>统筹大型校园活动（数百人规模）的后勤与流程安排，协调各方团队，确保时间线与执行进度按计划推进。</li>
-              <li>使用 Excel/Google Sheets 管理活动物资与库存，保证记录准确，并支持多场活动的快速周转。</li>
-              <li>负责嘉宾对接与现场支持（日程、到场、现场协助），确保嘉宾体验专业顺畅。</li>
-              <li>主导活动现场执行与突发问题处理，保障现场动线、时间节点与服务标准稳定落地。</li>
-            </ul>
-            
-            <h4>Kimber Health <span class="muted">2025 年 8 月–2025 年 11 月</span></h4>
-            <p><strong>市场协调员（Marketing Coordinator）</strong></p>
-            <ul class="list-clean">
-              <li>负责小红书账号运营与内容制作，策划并产出广告内容，显著提升互动与曝光。</li>
-              <li>主导学生保险产品的线下活动策划与校园推广，通过精准传播提升学生参保与校园参与度。</li>
-            </ul>
 
-            <h4>Abercrombie & Fitch Co. <span class="muted">2026年4月–2026年6月</span></h4>
-            <p><strong>品牌代表</strong></p>
-            <ul class="list-clean">
-              <li>在快节奏的时尚零售环境中，结合品牌叙事、造型支持与视觉陈列，为顾客营造以体验为核心的购物氛围。</li>
-              <li>通过个性化沟通、产品知识与品牌形象传达，提升顾客体验，并呈现 Abercrombie & Fitch 当代化的品牌气质。</li>
-            </ul>
+<title>
+About | Via Sun
+</title>
 
-            <h4>四色数码有限公司<span class="muted">2024 年 1 月–2024 年 3 月</span></h4>
-            <p><strong>展览设计顾问（Exhibition Design Advisor）</strong></p>
-            <ul class="list-clean">
-              <li>为展览提供关键创意与设计建议，影响活动空间布局与观众体验。</li>
-              <li>参与展览策划与落地执行，就动线、空间规划与教育材料提出策略建议，提升整体呈现与传播效果。</li>
-            </ul>
-            
-          </div>
-        </div>
-      </section>
 
-      <section class="section" id="education">
-        <h3 data-i18n="section_education">Education</h3>
-                <div class="card">
-          <div class="lang-block lang-en">
-            <p>
-              <strong>New York University</strong> <span class="muted">| 2024–2028</span><br/>
-            Bachelor of Science <span class="muted">|</span> Media, Culture, and Communication <br/>
-            Minor: Fashion Studies <br/>
-            NYU Florence | Gallatin Program in Global Fashion, Florence, Italy — Sep.2026-Dec.2026
-            </p>
-          </div>
+<link rel="stylesheet" href="style.css">
 
-          <div class="lang-block lang-zh">
-            <p><strong>纽约大学（New York University）</strong> <span class="muted">| 2024–2028</span><br/>
-            理学学士 <span class="muted">|</span> 媒体、文化与传播（Media, Culture, and Communication）<br/>
-            辅修：时尚学习(Fashion Studies) <br/>
-            纽约大学 佛罗伦萨分校｜Gallatin全球时尚项目，佛罗伦萨，意大利 - 2026年9月-2026年12月
-            </p>
-          </div>
-        </div>
-      </section>
 
-      <section class="section" id="language">
-        <h3 data-i18n="section_language">Language</h3>
-                <div class="card">
-          <div class="lang-block lang-en">
-            <p>Proficient in Mandarin and English with strong writing and communication skills. Conversational in Korean.</p>
-          </div>
+</head>
 
-          <div class="lang-block lang-zh">
-            <p>中文与英文写作、沟通能力熟练；韩语可进行日常交流。</p>
-          </div>
-        </div>
-      </section>
-    </section>
 
-    <section class="section" id="social">
-      <h2 data-i18n="section_social">Social media</h2>
-      <div class="grid-2">
-        <div class="card">
-          <h3>Instagram</h3>
-          <p><strong>Account:</strong> <a href="https://www.instagram.com/viav.iasun/" target="_blank" rel="noopener">viav.iasun</a></p>
-          <img
-            class="qr"
-            src="images/ig-qr.jpg"
-            srcset="images/ig-qr.jpg 1x, images/ig-qr@2x.jpg 2x"
-            width="710"
-            height="702"
-            alt="Instagram QR code"
-            loading="lazy"
-          />
-        </div>
 
-        <div class="card">
-          <h3>Rednote (小红书）</h3>
-          <p><strong>Account ID:</strong> 116725301</p>
-          <p><a href="https://xhslink.com/m/86TESUumayJ" target="_blank" rel="noopener">Open profile</a></p>
-          <img
-            class="qr"
-            src="images/rednote-qr.jpg"
-            srcset="images/rednote-qr.jpg 1x, images/rednote-qr@2x.jpg 2x"
-            width="264"
-            height="262"
-            alt="Rednote QR code"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </section>
-  </main>
+<body>
 
-  <footer class="site-footer" id="contact">
-    <div class="footer-inner-simple">
-      <div class="footer-line">
-        <a class="footer-linkedin" href="https://www.linkedin.com/in/viasun" target="_blank" rel="noopener">
-          <span class="li-icon" aria-hidden="true"></span>
-          LinkedIn
-        </a>
-        <span class="sep" aria-hidden="true">•</span>
-        <span>Email: <a href="mailto:viasun06@gmail.com">viasun06@gmail.com</a> / <a href="mailto:xs2569@nyu.edu">xs2569@nyu.edu</a></span>
-        <span class="sep" aria-hidden="true">•</span>
-        <span>Phone: <a href="tel:+12013449825">+1 201 344 9825</a></span>
-        <span class="sep" aria-hidden="true">•</span>
-        <span>New York, NY</span>
-      </div>
 
-      <div class="footer-bottom">
-        <span class="handcoded" data-i18n="footer_handcoded">Hand-coded by Via Sun</span>
-        <a class="back-top" href="#top" data-i18n="back_to_top">Back to top</a>
-      </div>
-    </div>
-  </footer>
+<div class="page about-page">
 
-  <script src="js/main.js"></script>
+
+
+
+
+<!-- =====================
+NAV
+===================== -->
+
+
+<header class="main-nav">
+
+
+<a href="index.html" class="logo">
+V.
+</a>
+
+
+
+<nav>
+
+<a href="index.html">
+HOME
+</a>
+
+<a href="projects.html">
+PROJECTS
+</a>
+
+<a href="#resume">
+RESUME
+</a>
+
+<a href="#contact">
+CONTACT
+</a>
+
+
+</nav>
+
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+ABOUT HERO
+
+UPLOAD:
+images/about-photo.jpg
+
+===================== -->
+
+
+<section class="about-cover">
+
+
+<div class="about-title">
+
+
+<h1>
+ABOUT<br>
+VIA
+</h1>
+
+
+</div>
+
+
+
+<div class="about-image">
+
+
+<img
+
+src="images/about-photo.jpg"
+
+alt="Via Sun portrait"
+
+
+>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+PERSONAL STATEMENT
+
+KEEP ORIGINAL TEXT FROM ZIP
+
+===================== -->
+
+
+<section class="personal-statement">
+
+
+<div class="statement-label">
+
+ABOUT ME
+
+</div>
+
+
+
+<div class="statement-content">
+
+
+<!-- 
+PASTE YOUR ORIGINAL PERSONAL STATEMENT HERE
+
+DO NOT CHANGE
+
+-->
+
+<p data-i18n="personal_statement">
+
+
+Your original personal statement goes here.
+
+
+</p>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+RESUME DOWNLOAD
+
+English:
+resume.pdf
+
+Chinese:
+孙欣茗简历.pdf
+
+===================== -->
+
+
+<section class="resume-download">
+
+
+<a
+
+id="resume-download"
+
+href="resume.pdf"
+
+download
+
+>
+
+DOWNLOAD RÉSUMÉ PDF
+
+</a>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+RESUME
+===================== -->
+
+
+<section id="resume"
+class="resume-editorial">
+
+
+
+
+
+<h2 class="resume-main-title">
+RESUME
+</h2>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+SKILLS
+===================== -->
+
+
+<div class="resume-section">
+
+
+<h3>
+SKILLS
+</h3>
+
+
+
+<div class="skill-group">
+
+
+
+<h4>
+Visual Production
+</h4>
+
+
+<p>
+Video editing and visual content production using CapCut and Canva.
+</p>
+
+
+<p>
+AI-assisted image and video creation for digital storytelling and brand communication.
+</p>
+
+
+<p>
+Short-form content development, visual direction, and creative asset production.
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="skill-group">
+
+
+<h4>
+Digital Media & Brand Communication
+</h4>
+
+
+<p>
+Social media strategy, content planning, and platform management across Rednote and Instagram.
+</p>
+
+
+<p>
+Digital storytelling and audience engagement through visual and written content.
+</p>
+
+
+<p>
+Understanding of fashion, cultural trends, and contemporary media environments.
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="skill-group">
+
+
+<h4>
+AI & Creative Workflow
+</h4>
+
+
+<p>
+Experienced in structured prompting, creative direction, and iterative refinement with AI tools.
+</p>
+
+
+<p>
+Skilled at translating abstract ideas into clear creative concepts, visual outputs, and communication strategies.
+</p>
+
+
+<p>
+Ability to integrate emerging technologies into creative production workflows.
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="skill-group">
+
+
+<h4>
+Web & Technical Skills
+</h4>
+
+
+<p>
+HTML, CSS, SVG, and JavaScript for web design and digital portfolio development.
+</p>
+
+
+<p>
+Google Workspace (Docs, Sheets, Slides) for collaboration and project management.
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+WORK EXPERIENCE
+===================== -->
+
+
+<div class="resume-section">
+
+
+<h3>
+WORK EXPERIENCE
+</h3>
+
+
+
+
+
+
+<div class="experience-item">
+
+
+<h4>
+Digital Content Assistant
+</h4>
+
+
+<p>
+Kenwei Technology | Jul. 2026 – Aug. 2026
+</p>
+
+
+<ul>
+
+<li>
+Developed visual content using AI-assisted creative tools, including image generation and video production workflows, to support brand communication and digital marketing initiatives.
+</li>
+
+
+<li>
+Produced and edited short-form videos and visual assets for social media platforms, improving content consistency and strengthening brand storytelling.
+</li>
+
+
+<li>
+Managed social media content operations, including creative planning, asset preparation, and platform-specific optimization.
+</li>
+
+
+<li>
+Collaborated with team members to translate business objectives into visually engaging digital content.
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="experience-item">
+
+
+<h4>
+Marketing Coordinator
+</h4>
+
+
+<p>
+Kimber Health | Aug. 2025 – Present
+</p>
+
+
+<ul>
+
+<li>
+Led the management of the Rednote social media account, creating impactful advertising content that significantly boosted engagement and visibility.
+</li>
+
+
+<li>
+Spearheaded the planning and on-campus promotion of marketing events for student insurance products, successfully increasing student enrollment and on-campus engagement.
+</li>
+
+
+<li>
+Developed communication strategies through digital content and community interaction to strengthen brand influence.
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="experience-item">
+
+
+<h4>
+Office Assistant
+</h4>
+
+
+<p>
+NYU SPS Office of Events | Feb. 2026 – June. 2026
+</p>
+
+
+<ul>
+
+<li>
+Coordinated logistics and run-of-show for large-scale campus events with hundreds of attendees.
+</li>
+
+
+<li>
+Managed event materials and inventory using Excel and Google Sheets.
+</li>
+
+
+<li>
+Handled guest communication, scheduling, and on-site support.
+</li>
+
+
+<li>
+Led real-time troubleshooting to maintain event flow and service standards.
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="experience-item">
+
+
+<h4>
+Brand Representative
+</h4>
+
+
+<p>
+Abercrombie & Fitch Co. | Apr. 2026 – June. 2026
+</p>
+
+
+<ul>
+
+
+<li>
+Contributed to a customer-focused retail environment through brand storytelling, styling support, and visual presentation.
+</li>
+
+
+<li>
+Strengthened client experience through personalized communication, product knowledge, and brand representation.
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="experience-item">
+
+
+<h4>
+Exhibition Design Advisor
+</h4>
+
+
+<p>
+Sise Digital Co., Ltd. | Jan. 2024 – Mar. 2024
+</p>
+
+
+<ul>
+
+
+<li>
+Provided creative recommendations for exhibition space design, visitor experience, and visual communication strategy.
+</li>
+
+
+<li>
+Collaborated in exhibition planning and execution, contributing ideas on layout, visitor flow, and educational materials.
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+EDUCATION
+===================== -->
+
+
+<div class="resume-section">
+
+
+<h3>
+EDUCATION
+</h3>
+
+
+
+
+<div class="education-item">
+
+
+<h4>
+New York University
+</h4>
+
+
+<p>
+Bachelor of Science in Media, Culture, and Communication
+</p>
+
+
+<p>
+2024 – 2028
+</p>
+
+
+<p>
+Minor: Fashion Studies
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="education-item">
+
+
+<h4>
+NYU Florence | Gallatin Program in Global Fashion
+</h4>
+
+
+<p>
+Florence, Italy
+</p>
+
+
+<p>
+Sep. 2026 – Dec. 2026
+</p>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+LANGUAGE
+===================== -->
+
+
+<div class="resume-section">
+
+
+<h3>
+LANGUAGE
+</h3>
+
+
+
+<div class="language-list">
+
+
+<p>
+Chinese (Native)
+</p>
+
+
+<p>
+English (Professional)
+</p>
+
+
+<p>
+Korean (Conversational)
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================
+SOCIAL MEDIA
+
+QR:
+images/xiaohongshu-qr.png
+
+===================== -->
+
+
+<section class="social-area">
+
+
+<h2>
+SOCIAL
+</h2>
+
+
+
+
+<div class="social-grid">
+
+
+<div>
+
+<h4>
+Instagram
+</h4>
+
+<p>
+@viav.ia00
+</p>
+
+
+</div>
+
+
+
+
+<div>
+
+
+<h4>
+Xiaohongshu
+</h4>
+
+
+<img
+
+src="images/xiaohongshu-qr.png"
+
+class="qr-code"
+
+alt="Xiaohongshu QR"
+
+
+>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
 </body>
+
+
+
 </html>
+
+         
