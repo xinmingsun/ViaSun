@@ -1,2 +1,0 @@
-# ViaSun
-Personal Website
