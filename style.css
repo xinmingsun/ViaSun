@@ -1854,6 +1854,8 @@ html[data-language="zh"] span.lang-zh {
         max-width:none;
         margin:0
     }
+
+    }
 /* ==========================================================
    MOBILE FIXES
 ========================================================== */
@@ -1910,7 +1912,6 @@ html[data-language="zh"] span.lang-zh {
         object-fit:contain;
     }
 
-}
 }
 
 
